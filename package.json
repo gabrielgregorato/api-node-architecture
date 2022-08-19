@@ -1,0 +1,27 @@
+{
+    "name": "api-node-architecture",
+    "version": "1.0.0",
+    "description": "api-node-architecture",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "lint":"./node_modules/.bin/eslint .",
+        "lint-auto":"./node_modules/.bin/eslint . --fix",
+        "start": "NODE_ENV=development nodemon  src/api/server/index.js"
+    },
+    "engines": {
+        "node": "17"
+    },
+    "keywords": [],
+    "author": "GABRIEL RENAN GREGORATO",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^8.22.0",
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.1",
+        "pino": "^7.8.0",
+        "pino-pretty": "^7.5.3"
+    }
+}

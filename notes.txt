@@ -1,0 +1,27 @@
+curl --silent -X POST http://localhost:1234/
+curl --silent -X GET http://localhost:1234/
+
+
+______________________ESTRUTURA DE PASTAS______________________________
+└───src
+    └───api   
+        └───controllers   # Funções da controllers do express route
+        └───models        # Modelos do banco de dados
+        └───server        # Server para iniciar o app
+        └───repositories  # Query builders 
+    └───config            # Configuração das variaveis de ambiente
+    └───routes            # Definição de rotas
+_______________________________________________________________________
+
+
+______________________eslintrc_________________________________________
+
+created
+./node_modules/.bin/eslint --init
+
+check
+./node_modules/.bin/eslint .
+
+auto correct
+./node_modules/.bin/eslint . --fix
+_______________________________________________________________________
