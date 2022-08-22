@@ -10,27 +10,23 @@
 <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="200"  height="220" />
 </div>
 
-## Mapeamento Objeto-Relacional
-
-- SEQUELIZE  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-plain-wordmark.svg" width="40" height="30" />
-
-- TYPEORM  <img src="https://raw.githubusercontent.com/typeorm/typeorm/master/resources/logo_big.png" width="40" height="30" />
-
-- KNEX  <img src="https://knexjs.org/knex-logo.png" width="40" height="30" />
-
-- MONGOOSE  <img src="https://tsed.io/mongoose.png" width="40" height="40" />
+<h4 > 
+	🚧 Modelo de API usando node sem framework  🚧
+</h4>
 
 <br/>
 
-## FRAMEWORKS ✌
+## FERRAMENTA ✌
 
-- EXPRESS <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"  width="40" height="20" />
+- ESLint <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/eslint_logo_icon_170171.png"  width="40" height="20" />
+- Pino <img src="https://raw.githubusercontent.com/pinojs/pino/HEAD/pino-banner.png"  width="40" height="20" />
+- Nodemon <img src="https://user-images.githubusercontent.com/13700/35731649-652807e8-080e-11e8-88fd-1b2f6d553b2d.png"  width="30" height="30" />
   
 ## Pré-requisitos ☑
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:[Git](https://git-scm.com)
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"  width="20" height="20" />
-[Docker](https://docs.docker.com/desktop/install/windows-install/) <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="20" height="20" />
+[node](https://nodejs.org/en/) <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="20" height="20" />
 
 ### ⛏ Rodando o Back End (API RUN....)
 
@@ -45,17 +41,18 @@ $ cd api-node-architecture
 $ git branch -a
 
 # Escolha a branche
-$ git checkout  "Name_Branche"
+$ git checkout  node-clean-code
 
-# Procure pelo arquivo config.sh / executa com permissão de administrador
-$ ./config.sh
-      * chmod 777 config.sh #Permissão de leitura escrita e edição
-
-# Configuração Docker ⌛
-$ docker build . -t
-$ docker run -p 1234:1234 -d api-node
-
+# Executa com 
+$ npm start
 # O servidor inciará na porta:1234 - acesse <http://localhost:1234>
+
+
+# Configuração ESLint para verificar análise no código ⌛
+$ npm run lint
+# Configuração ESLint para fazer auto correção no código
+$ npm run lint-auto
+
 ```
 
 ### Diretrizes de contribuição
